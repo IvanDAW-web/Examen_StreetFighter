@@ -1,0 +1,106 @@
+
+@font-face {/* Añadimos la fuente personalizada llamada street.otf*/
+    font-family: 'Street';
+    src: url(Font/street.otf) format('opentype');
+}
+
+body { /*Establecemos el formato de la imagen de fondo*/
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Street, Arial, Helvetica, sans-serif;
+}
+
+h1 { /*Establecemos las características de las letras del título de la página, parte tabla*/
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+h2 { /*Establecemos las características de las letras del título del form*/
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+table { /*Establecemos el borde exterior de la tabla*/
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+#cabecera { /*Establecemos las dimensiones de la cabecera de la tabla*/
+    width: 40px;
+    height: 45px;
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 40px;
+}
+
+tr, td { /*Dimensiones de las celdas*/
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+span { /*Tamaño de las letras y color*/
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    display: block;
+}
+
+form { /*Dimensiones del form y características visuales*/
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+fieldset { /*Dimensiones de los fieldset para que sean amigables*/
+    margin: 10px;
+    padding: 5px;
+}
+
+legend { /*Dimensiones y estética de las letras de la leyenda del form*/
+    font-family: Street, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin: 5px;
+}
+
+label { /*Marca la posición de los lábeles de la form con respecto a los demás*/
+    display: block;
+    margin: 8px;
+}
+
+textarea {/*Caratcerísticas del área de texto*/
+    width: 560px;
+    height: 200px;
+}
+
+button { /*Características de los botones*/
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
